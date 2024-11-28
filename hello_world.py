@@ -21,6 +21,18 @@ my1.print_msg(msg="ハロー")
 # >>> ハロー
 
 
+# 外部ライブラリのインストール
+# コマンドプロンプト、ターミナルなどで
+# pip install ライブラリ名
+# または(Python3系に限る)
+# pip3 install ライブラリ名
+
+# 外部ライブラリのリストの表示
+# pip list
+# または(Python3系に限る)
+# pip3 list
+
+
 
 print("Hello world!")
 
