@@ -5,7 +5,12 @@ import tkinter as tk # import ライブラリ名 as 省略名
 import tkinter, os, re # import ライブラリ名1, ライブラリ名2, ライブラリ名3
 from tkinter import ttk # frome ライブラリ名 import モジュール名
 from multiprocessing import Process, Queue #fromから始まるimport文でも複数まとめてインポートできる
+# ローカルからインポートする場合
 
+
+# 使い方
+# ライブラリ名.クラス名(引数)
+# ライブラリ名.関数名(引数)
 
 print("Hello world!")
 
