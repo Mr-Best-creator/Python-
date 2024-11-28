@@ -6,7 +6,8 @@ import tkinter, os, re # import ライブラリ名1, ライブラリ名2, ライ
 from tkinter import ttk # frome ライブラリ名 import モジュール名
 from multiprocessing import Process, Queue #fromから始まるimport文でも複数まとめてインポートできる
 # ローカルからインポートする場合
-
+import my.my1 #myというフォルダのmy1.pyファイルをインポートする　フォルダの区切り文字は.(ドット)
+from my import my1 #こちらでも可
 
 # 使い方
 # ライブラリ名.クラス名(引数)
