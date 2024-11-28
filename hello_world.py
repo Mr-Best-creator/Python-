@@ -12,6 +12,15 @@ from my import my1 #こちらでも可
 # 使い方
 # ライブラリ名.クラス名(引数)
 # ライブラリ名.関数名(引数)
+my1.print_hello()
+# >>> hello
+my1.print_msg("ハロー")
+# >>> ハロー
+# または
+my1.print_msg(msg="ハロー")
+# >>> ハロー
+
+
 
 print("Hello world!")
 
